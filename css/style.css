@@ -1,0 +1,416 @@
+/*--------------------------------------------------------navbar CSS---------------------------------------*/
+.navbar{
+	font-family: "Verdana";
+	box-shadow: 0px 1px black;
+}
+.navbar-expand-lg{
+	justify-content: space-between;
+}
+.navbar-brand{
+	font-family: "Papyrus";
+	font-size: 23px;
+	padding-left: 10px;
+}
+.navbar-nav{
+	padding-left: 590px;
+}
+.nav-item{
+	font-size: 17px;
+	padding-right: 10px;
+}	
+/*----------------------------------------------------homepage CSS-----------------------------------------*/
+.home-slogan{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.home-slogan h1{
+	color: #fff;
+	font-size: 90px;
+	font-family: "Copperplate";
+}
+#home-subslogan{
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-family: "Lucida Handwriting";
+
+}
+.home-btn{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.home-sub-butn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.home-sub-butn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.bg-img-home{
+	width: 100%;
+	height: 500px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/home.jpg");
+	background-size: cover;
+}
+.features{
+	padding:20px 30px 20px 30px;
+}
+.home-aboutus{
+	padding: 40px 20px 17px 50px;
+	font-family: "Verdana";
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)), url("images/h-about.jpg");
+	background-size: cover;
+	color:white;
+}
+/*---------------------------------------------Footer CSS--------------------------------------------------*/
+.social-links{
+	text-align: center;
+}
+.social-links a{
+	color: black;
+	font-size: 30px;
+	padding-right: 30px;
+}
+.social-links li{
+	list-style-type: none;
+	float: left;
+}
+.social-links ul{
+	display: inline-block;
+}
+.foot-description{
+	padding-top: 30px;
+}
+/*-----------------------------------------------Login Page CSS--------------------------------------------*/
+#login-body h2{
+	text-align: center;
+	padding: 20px;
+}
+.bg-image-login{
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/login.jpg");
+		background-size: cover;
+		height: 90.90vh;
+}
+#login-body{
+	background: rgba(0,0,0,0.75);
+    width: 550px;
+    margin: 80px 10px 0px 450px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 8%;
+}
+#login-content label{
+	color: white;
+	font-style: bold;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+#login-username,#login-password{
+	border: none;
+	width: 400px;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+}
+#login-content{
+	padding-left: 75px;
+}
+#login-content input{
+color: white;
+}
+#login-content span{
+	color: red;
+	font-style: italic;
+	font-family: "Courier";
+}
+#login-submit{
+	background-color: rgba(0,0,0.5,0.5);
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#login-btn-grp{
+	padding-left: 165px;
+}
+/*------------Admin Login CSS-------*/
+.bg-img-alogin{
+		background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url("images/admin-login.jpg");
+		background-size: cover;
+		height: 90.90vh;
+}
+/*------------Employee Login CSS-------*/
+.bg-img-elogin{
+		background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url("images/employee-login.jpg");
+		background-size: cover;
+		height: 90.90vh;
+}
+/*-------------------------------------------------Register CSS--------------------------------------------*/
+.bg-img-register{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/register.jpg");
+	background-size: cover;
+	height: 140vh;
+}
+#register-body h2{
+	text-align: center;
+	padding: 20px;
+}
+#register-body{
+	background: rgba(0,0,0,0.75);
+    width: 690px;
+    margin: 10px 0px 10px 333px;
+    color: white;
+    font-size: 17px;
+    margin-top: 40px;
+    border-radius: 5px;
+   padding: 20px 0px 20px 15px;
+   top: 8%;
+   position: absolute;
+}
+#register-content label{
+	color: white;
+	font-size: 18px;
+}
+#name,#contact,#email,#password,#con_password,#address{
+	width: 400px;
+	height: 40px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+}
+#register-content{
+	padding-left: 135px;
+}
+#register-content input{
+	color:white;
+}
+#register-content span{
+	color: red;
+	font-family: "Courier";
+	font-style: italic;
+}
+#submit,#reset{
+	background-color: rgba(0,0,0.5,0.5);
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+/*--------------------------------------------------About Page CSS-----------------------------------------*/
+.about-header-text{
+	background-color: #F7F7F7;
+	padding: 20px 60px 5px 60px;
+	font-family: "Verdana";
+}
+.about-body h4{
+	font-family: "Verdana";
+	padding: 30px 0px 20px 90px;
+
+}
+.about-icons i{
+	padding: 0 0 20px 110px;
+	font-size: 150px;
+}
+.about-icons h5{
+	padding-bottom: 20px;
+	font-family: "Verdana";
+}
+.about-mission h3{
+	padding: 60px 50px 0 50px;
+	color: white; 
+	font-family: "Verdana";
+}
+.about-mission p{
+	padding: 5px 50px 60px 50px;
+	color: white;
+	font-family: "Verdana";
+}
+/*----------------------------------------------Connect Page CSS-------------------------------------------*/
+.connect-body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)), url("images/contact2.jpg");
+	background-size: cover; 
+}
+.contact-info{
+	color: white;
+	padding: 70px 0 0 30px;	
+	font-family: "Verdana";
+}
+.contact-info i{
+	font-size: 20px;
+}
+.map{
+	padding: 20px 0 10px 100px;
+}
+/*----------------------------------------------Restaurants Page CSS---------------------------------------*/
+.restaurants-header{
+	background-color: #eaeaea;
+}
+.restaurants-header h2{
+	padding: 30px 0 30px 10px;
+	font-family: "Verdana";
+}
+.restaurants-body{
+	padding-left: 70px;
+	padding-right: 70px;
+	font-family: "Verdana";
+}
+.card{
+	overflow: hidden;
+}
+.rest-img{
+	width: 100%;
+	height: 50vh;
+	object-fit: cover;
+	transition: transform .3s ease-in-out; 
+}
+.rest-img:hover{
+	transform: scale(1.05);
+	
+}
+.rest-info{
+	padding: 10px 0px 0 20px;
+}
+.rest-info p{
+	margin-top: 10px;
+}
+/*---------------------------------------------------Menu page CSS-------------------------------------------*/
+.menu-header{
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.1)), url("images/menu1.jpg"); 
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+}
+
+.menu-header-description{
+	color: white;
+	top: 50%;
+	font-family: "Garamond";
+	font-size: 20px;
+	padding-left: 30px;
+}
+.menu-title{
+	background-color: #F7F7F7;
+}
+.menu-title h2{
+	padding: 25px 0 0px 50px;
+	font-family: "Verdana";
+}
+.menu-table{
+	padding-left: 70px; 
+	padding-right: 70px; 
+}
+.table{
+	background-color: #F7F7F7;
+}
+/*-------------------------------------------Admin-Dashboard CSS--------------------------------------------*/
+.employee-table{
+	padding: 20px 35px 20px 35px;
+	text-align: center;
+}
+.employee-table a{
+	text-decoration: none;
+	color: white;
+}
+.admin-dashboard{
+	background-image: linear-gradient(grey,white);
+}
+.admin-db-header{
+	margin-top: 1px;
+	background-color: #eaeaea;
+	padding: 15px 0 15px 0;
+}
+.admin-db-header span{
+	font-family: "Impact";
+	font-size: 30px;
+	margin-left: 540px;
+}
+.admin-db-header a{
+	text-decoration: none;
+	color: white;
+}
+.admin-db-header button{
+	margin-right: 15px;
+	float: right;
+}
+.admin-db-sidenav {
+	background-image: linear-gradient(lightgrey,white);
+	padding-top: 20px;
+}
+.admin-db-sidenav a{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Verdana";
+	color: black;
+}
+.admin-db-sidenav a:hover{
+	background-color: #0d6efd;
+}
+
+/*---------Add Employee page CSS------------*/
+.employee-add{
+	background-image: linear-gradient(grey,white);
+}
+.employee-add-form{
+	padding:10px 250px 10px 250px;
+	margin-top: 20px;
+}
+/*-----------Edit Employee page css---------*/
+.employee-edit{
+	background-image: linear-gradient(grey,white);
+}
+/*------------------------------------------------Employee Dashboard CSS------------------------------------*/
+.employee-dashboard{
+background-image: linear-gradient(lightgrey,white);
+}
+.employee-info{
+	padding: 30px 35px 0px 35px;
+}
+.employee-db-body{
+	height: 450px;
+}
+/*Add Item Page CSS*/
+.item-add{
+	background-image: linear-gradient(lightgrey,white);
+}
+/*------------------------------------------Customer Dashboard CSS-----------------------------------------*/
+.customer-db-header ul{
+	background-image: url("images/menu-bg.jpg");
+	padding: 15px;
+	border-bottom: 1px solid grey;
+	font-size: 20px;
+	color: white;
+	font-family: "Verdana";
+}
+.customer-db-header a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.checkout{
+	width: 1200px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
